@@ -1,10 +1,12 @@
-# Análise de Estoque por Produto - Janeiro 2024
+# Análise de Estoque Inteligente
+
+Dataset utilizado: `dataset-1000-com-preco-promocional-e-renovacao-estoque.csv`
 
 ## 📊 Gráfico: Média de Estoque por Produto
 
 ```mermaid
 xychart-beta
-    title "Média de Estoque Diário por Produto (Janeiro 2024)"
+    title "Média de Estoque Diário por Produto"
     x-axis "ID do Produto (Por Mil)" [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
     y-axis "Média de Estoque" 0 --> 100
     bar [52.1, 66.8, 52.2, 52.9, 54.1, 59.0, 58.0, 54.9, 56.9, 57.0, 50.3, 53.0, 57.4, 56.6, 55.8, 56.7, 56.8, 49.2, 50.8, 49.3, 57.7, 51.4, 52.4, 54.1, 50.9]
